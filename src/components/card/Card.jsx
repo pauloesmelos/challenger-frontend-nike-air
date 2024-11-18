@@ -5,7 +5,7 @@ import Tenis from "../../assets/tenis.png";
 
 const Card = () => {
   return (
-    <div className="w-[80%] md:w-[60%] lg:w-[50%] h-[60vh] bg-white shadow-lg rounded-md">
+    <div className="w-[80%] md:w-[70%] lg:w-[70%] h-[65vh] bg-white shadow-lg rounded-md">
       <div className="w-full h-full">
         <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2">
           {/* container 1 */}
@@ -30,7 +30,7 @@ const Card = () => {
                   O futuro a um passo do seu alcance
                 </p>
                 <button className="py-2 lg:py-3 px-6 bg-[#F5CB18] text-slate-800 font-medium shadow-md rounded-md w-[180px] flex items-center
-                justify-between border-2 border-[#F5CB18] hover:bg-white duration-150 ease-linear hover:text-[#F5CB18]">
+                justify-between border-2 border-[#F5CB18] hover:bg-white duration-150 ease-linear hover:text-[#F5CB18] my-4 lg:my-0">
                   Visualizar
                   <SiNike size={30} />
                 </button>
