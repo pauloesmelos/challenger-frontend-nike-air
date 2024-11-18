@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-slate-200 overflow-x-hidden
+    }
+    .animaMove {
+        @apply animateMove
+    }
+}
+.animateMove {
+    animation: move 2s infinite;
+}
+@keyframes move {
+    0% { transform: translateX(0px) }
+    50% { transform: translateX(40px) }
+    100% { transform: translateX(0px) }
+}
